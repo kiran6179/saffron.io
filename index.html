@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saffron & Stone — seasonal Indian-inspired dining, thoughtful hospitality, and memorable evenings.">
+  <title>Saffron &amp; Stone | Thoughtful Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Saffron and Stone home">
+        <span class="brand-mark" aria-hidden="true">S<span>&amp;</span>S</span>
+        <span class="brand-name">SAFFRON <i>&amp;</i> STONE<small>THOUGHTFUL DINING</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a class="nav-cta" href="#reservations">Reserve a Table <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Warmly lit contemporary restaurant dining room"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">SEASONAL INGREDIENTS · HEARTFELT HOSPITALITY</p>
+        <h1>A little spice.<br><em>A lot of soul.</em></h1>
+        <p class="hero-copy">A modern Indian table where familiar flavours meet fresh ideas, and every meal feels like being welcomed home.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#menu">Explore our menu <span aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#about">Discover our story <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>MADE WITH CARE, SERVED WITH JOY</span></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 — 04</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="intro-label">
+          <p class="eyebrow">OUR PHILOSOPHY</p>
+          <span class="vertical-rule"></span>
+          <p class="side-note">Good food brings<br>people closer.</p>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow">WELCOME TO SAFFRON &amp; STONE</p>
+          <h2>Rooted in tradition.<br><em>Made for today.</em></h2>
+          <p class="large-copy">We believe the best dining experiences are built on simple things: honest ingredients, generous flavours, and people who care.</p>
+          <p>Inspired by India's rich culinary heritage, our kitchen brings regional favourites and contemporary techniques together in a relaxed, considered setting. Whether it is a quick lunch or a long dinner with friends, there is always room at our table.</p>
+          <a class="text-link dark-link" href="#experience">The Saffron &amp; Stone experience <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="intro-visual">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85" alt="An elegant restaurant table set for dinner" loading="lazy">
+          <div class="image-caption"><span>01 /</span> Thoughtfully prepared, warmly served.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">FROM OUR KITCHEN</p><h2>A menu with <em>character.</em></h2></div>
+          <p>Seasonal produce, layered spices, and a little something unexpected. Find a new favourite or return to an old one.</p>
+        </div>
+        <div class="menu-controls" role="group" aria-label="Filter menu by category">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All dishes</button>
+          <button class="filter-button" type="button" data-filter="starters" aria-pressed="false">To begin</button>
+          <button class="filter-button" type="button" data-filter="mains" aria-pressed="false">Mains</button>
+          <button class="filter-button" type="button" data-filter="desserts" aria-pressed="false">Desserts</button>
+          <button class="filter-button" type="button" data-filter="drinks" aria-pressed="false">Drinks</button>
+        </div>
+        <div class="menu-grid" id="menu-grid">
+          <article class="dish-card" data-category="starters">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=80" alt="Golden samosas served with chutney" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Smoked Potato Samosa</h3><span>₹280</span></div><p>Flaky pastry, spiced potato, mint and tamarind chutney.</p><span class="dish-tag">VEGETARIAN</span></div>
+          </article>
+          <article class="dish-card" data-category="starters">
+            <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=700&q=80" alt="Indian paneer dish with herbs and spices" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Tandoori Paneer Tikka</h3><span>₹360</span></div><p>Charred paneer, hung yoghurt marinade, pickled onion.</p><span class="dish-tag">VEGETARIAN</span></div>
+          </article>
+          <article class="dish-card" data-category="mains">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80" alt="Rich Indian curry with herbs" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Slow-Cooked Butter Chicken</h3><span>₹520</span></div><p>Tomato, cultured butter, warming spices and cream.</p><span class="dish-tag">CHEF'S FAVOURITE</span></div>
+          </article>
+          <article class="dish-card" data-category="mains">
+            <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=80" alt="Aromatic rice dish garnished with herbs" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Hyderabadi Vegetable Dum</h3><span>₹440</span></div><p>Fragrant basmati, seasonal vegetables, saffron and mint.</p><span class="dish-tag">VEGETARIAN</span></div>
+          </article>
+          <article class="dish-card" data-category="desserts">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=80" alt="A delicate plated dessert" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Cardamom Tres Leches</h3><span>₹260</span></div><p>Soft sponge, cardamom milk, pistachio crumble.</p><span class="dish-tag">SIGNATURE DESSERT</span></div>
+          </article>
+          <article class="dish-card" data-category="drinks">
+            <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80" alt="Refreshing drinks served in glasses" loading="lazy">
+            <div class="dish-info"><div class="dish-title"><h3>Seasonal Citrus Cooler</h3><span>₹180</span></div><p>Fresh citrus, basil, a hint of ginger and sparkling water.</p><span class="dish-tag">NON-ALCOHOLIC</span></div>
+          </article>
+        </div>
+        <p class="menu-footnote">Menu and prices are illustrative for this student project and may be customised.</p>
+      </div>
+    </section>
+
+    <section class="chef-section" id="experience">
+      <div class="chef-photo" role="img" aria-label="Chef preparing a carefully plated dish"></div>
+      <div class="chef-panel">
+        <p class="eyebrow light">A NOTE FROM THE KITCHEN</p>
+        <h2>Flavour first.<br><em>Always.</em></h2>
+        <p>Our kitchen honours the time-tested techniques behind India's favourite dishes, while making space for curiosity. We source thoughtfully, cook in small batches, and let each ingredient earn its place on the plate.</p>
+        <div class="chef-signature">The Saffron &amp; Stone kitchen</div>
+        <a class="button button-outline" href="#menu">Meet the menu <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="container">
+        <div class="section-heading gallery-heading">
+          <div><p class="eyebrow">A FEELING, NOT JUST A MEAL</p><h2>Come as you are.<br><em>Stay a little longer.</em></h2></div>
+          <p>Easy conversations, thoughtful details, and plates made to be shared. Take a look around our table.</p>
+        </div>
+        <div class="gallery-grid">
+          <img class="gallery-tall" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85" alt="Warm restaurant interior with inviting tables" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85" alt="Freshly prepared colourful food" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=700&q=85" alt="A carefully plated meal" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=85" alt="Guests enjoying a restaurant dining experience" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation-section section-pad" id="reservations">
+      <div class="container reservation-grid">
+        <div class="reservation-copy">
+          <p class="eyebrow light">YOUR TABLE IS WAITING</p>
+          <h2>Make room for<br><em>something lovely.</em></h2>
+          <p>Planning a catch-up, a celebration, or simply a good meal? Tell us a little about your visit using the form.</p>
+          <div class="reservation-detail"><span class="detail-icon">◷</span><div><strong>Opening hours</strong><p>Monday–Sunday · 12:00 PM–10:30 PM</p></div></div>
+          <div class="reservation-detail"><span class="detail-icon">⌖</span><div><strong>Find us</strong><p>12 Jubilee Terrace, Banjara Hills, Hyderabad<br><small>Fictional address for demonstration</small></p></div></div>
+        </div>
+        <form class="reservation-form" id="reservation-form" novalidate>
+          <div class="form-heading"><h3>Reserve a table</h3><p>Fields marked * are required.</p></div>
+          <div class="form-row">
+            <label>Full name *<input type="text" name="name" autocomplete="name" required minlength="2" placeholder="Your name"></label>
+            <label>Email address *<input type="email" name="email" autocomplete="email" required placeholder="you@example.com"></label>
+          </div>
+          <div class="form-row">
+            <label>Phone number *<input type="tel" name="phone" autocomplete="tel" required pattern="[0-9+() .-]{8,18}" placeholder="+91 98765 43210"></label>
+            <label>Number of guests *
+              <select name="guests" required>
+                <option value="">Select guests</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Date *<input type="date" name="date" id="reservation-date" required></label>
+            <label>Time *
+              <select name="time" required>
+                <option value="">Choose a time</option><option>12:00 PM</option><option>12:30 PM</option><option>1:00 PM</option><option>1:30 PM</option><option>2:00 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option><option>9:30 PM</option><option>10:00 PM</option>
+              </select>
+            </label>
+          </div>
+          <label>Special requests <textarea name="requests" rows="3" placeholder="Dietary needs, occasion, seating preference…"></textarea></label>
+          <button class="button button-dark submit-button" type="submit">Check reservation details <span aria-hidden="true">→</span></button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          <p class="form-disclaimer">Demo only: this form validates your details in the browser. It does not send a booking or save personal information.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-strip">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">COME FIND US</p><h2>Good things happen<br><em>around the table.</em></h2></div>
+        <div><span class="contact-label">VISIT</span><p>12 Jubilee Terrace<br>Banjara Hills, Hyderabad</p></div>
+        <div><span class="contact-label">SAY HELLO</span><p><a href="tel:+914040001234">+91 40 4000 1234</a><br><a href="mailto:hello@saffronstone.example">hello@saffronstone.example</a></p></div>
+        <a class="round-link" href="#home" aria-label="Back to top">↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">S<span>&amp;</span>S</span>
+        <span class="brand-name">SAFFRON <i>&amp;</i> STONE<small>THOUGHTFUL DINING</small></span>
+      </a>
+      <p>Made with care. Shared with joy.</p>
+      <div class="footer-links"><a href="#about">Our story</a><a href="#menu">Menu</a><a href="#reservations">Reservations</a></div>
+      <small>© <span id="copyright-year"></span> Saffron &amp; Stone · Student project concept</small>
+    </div>
+  </footer>
+</body>
+</html>
